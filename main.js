@@ -47,21 +47,21 @@ request.get(getRepo, function(err, response, body){
           "description": `${description}`,
           "url": `${url}`,
           "color": `${color}`,
-          "fields": [
+          /*"fields": [
             {
               "name": `${section_name}`,
               "value": `${name(JSON.parse(response['body']).body, '##', '')}`
             }
-          ],
+          ],*/
           "author": {
             "name": `${author_name}`,
             "url": `${author_url}`,
             "icon_url": `${author_avatar}`
           },
-          "footer": {
+          /*"footer": {
             "text": `${footer_text}`,
             "icon_url": `${footer_url}`
-          },
+          },*/
           "thumbnail": {
             "url": `https://raw.githubusercontent.com/${repo}/icon.png`
           }
