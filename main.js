@@ -10,20 +10,20 @@
 
 const request = require('request');
 
-var repo = process.env.GITHUB_REPOSITORY || "LeGitHubDeTai/github-to-discord",
+var repo = process.env.GITHUB_REPOSITORY || "Abbadon999/github-to-discord",
     webhook = process.env.DISCORD_WEBHOOK || null,
-    username = process.env.DISCORD_USERNAME || "Tai Studio Bot",
-    avatar_url = process.env.DISCORD_AVATAR || "https://raw.githubusercontent.com/LeGitHubDeTai/github-to-discord/main/icon.png",
+    username = process.env.DISCORD_USERNAME || "⸸⛧𝑨𝑩𝑩𝑨𝑫𝑶𝑵⛧⸸",
+    avatar_url = process.env.DISCORD_AVATAR || "https://raw.githubusercontent.com/Abbadon999/github-to-discord/main/icon.png",
     content =  process.env.CONTENT || null,
-    title = process.env.MESSAGE_TITLE || "New Version",
-    description = process.env.MESSAGE_DESCRIPTION || "Tai Studio",
+    title = process.env.MESSAGE_TITLE || "New Release",
+    description = process.env.MESSAGE_DESCRIPTION || "Abbadon999",
     url = process.env.MESSAGE_URL || `https://github.com/${repo}`,
     color = process.env.MESSAGE_COLOR || 5814783,
     section_name = process.env.SECTION_NAME || "ChangeLog",
-    author_name = process.env.AUTHOR_NAME || "Tai Studio",
+    author_name = process.env.AUTHOR_NAME || "Abbadon999",
     author_url = process.env.AUTHOR_URL || "https://tai-studio.netlify.app/",
-    author_avatar = process.env.AUTHOR_AVATAR || "https://tai-studio.netlify.app/img/logo/Tai_Studio.png",
-    footer_text = process.env.FOOTER_TEXT || "- Tai Studio © 2022 -",
+    author_avatar = process.env.AUTHOR_AVATAR || "https://raw.githubusercontent.com/Abbadon999/github-to-discord/main/icon.png",
+    footer_text = process.env.FOOTER_TEXT || "- ⸸⛧𝑨𝑩𝑩𝑨𝑫𝑶𝑵⛧⸸ -",
     footer_url = process.env.FOOTER_URL || "https://tai-studio.netlify.app/img/logo/Tai_Studio.png",
     image = process.env.IMAGE || null;
 
