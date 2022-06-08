@@ -23,7 +23,7 @@ var repo = process.env.GITHUB_REPOSITORY || "Abbadon999/github-to-discord",
     author_name = process.env.AUTHOR_NAME || "⸸⛧𝑨𝑩𝑩𝑨𝑫𝑶𝑵⛧⸸",
     author_url = process.env.AUTHOR_URL || "",
     author_avatar = process.env.AUTHOR_AVATAR || "https://cdn.discordapp.com/avatars/267312249067012096/7732451a1f9e207b540561a336d0e392.jpg",
-    footer_text = process.env.FOOTER_TEXT || "- Terraquest © 2022 -",
+    footer_text = process.env.FOOTER_TEXT || "- TerraBetterQuest © 2022 -",
     footer_url = process.env.FOOTER_URL || "https://tai-studio.netlify.app/img/logo/Tai_Studio.png",
     image = process.env.IMAGE || null;
 
